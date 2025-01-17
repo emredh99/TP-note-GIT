@@ -1,63 +1,54 @@
-<<<<<<< HEAD
-@media screen and (max-width: 768px) {
-    .heading {
-    
-        margin: 0;
-        text-align: center;
-    }
-    
-    .blabla {
-        padding: 0px;
-        color: blue;
-    }
-=======
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-size: 16px;
-    color: blue;
-    padding: 15px;
->>>>>>> 3202ed0a5f19fbdca65201e118d33ab609b945f4
+    font-size: 14px;  
+    color: #0066cc;   
+    padding: 10px;    
 }
 
 h1 {
-    font-size: 24px;
-    margin-bottom: 15px;
+    font-size: 20px; 
+    margin-bottom: 12px;
+    text-align: center;
 }
 
 h2 {
-    font-size: 20px;
-    margin-bottom: 12px;
+    font-size: 18px;  
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 nav {
-    background-color: white;
-    padding: 10px;
-    margin-bottom: 20px;
+    background-color: #f5f5f5; 
+    padding: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-nav {
-    color: blue;
+nav a { 
+    color: #0066cc;
     text-decoration: none;
     display: block;
-    padding: 8px;
+    padding: 6px;
+    margin: 5px 0;
 }
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+    border-radius: 5px;  
 }
-
 
 input, textarea, select {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
-
