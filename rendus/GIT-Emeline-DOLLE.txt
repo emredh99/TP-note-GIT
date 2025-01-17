@@ -5,6 +5,7 @@ Emeline DOLLE, B2 CS1.
 Création du dépôt sur GitHub. 
 J'invite mes collaborateurs : elena94s, Nephtys643 et sebmfgit
 
+
 1. Import sur la VM 
 
 git clone https://github.com/emredh99/TP-note-GIT
@@ -20,7 +21,7 @@ git config --global user.name "emredh99"
 git commit -m "Création Arborescence"
 git push origin master 
 
-Nos collaborateurs importent maintenant le dépôt sur leurs machines. 
+Mes collaborateurs importent maintenant le dépôt sur leurs machines. 
 
 
 3. Création mobile.css 
@@ -68,3 +69,19 @@ git pull origin master
 git pull origin modification-em-html 
 git merge modification-em-html
 git push
+
+6. Création d'un espace de rendus pour nos fichiers .txt
+
+Sur la branche master :
+mkdir rendus
+nano rendus/test.txt
+git add rendus
+git commit -m "ajout d'un espace de rendus pour nos fichiers"
+git push origin master
+
+sur github j'importe mon fichier dans le dossier rendus
+sur ma vm : 
+git pull origin master 
+
+Puis je modifie, je sauvegarde, je commit et je push. 
+
