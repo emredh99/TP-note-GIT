@@ -4,28 +4,25 @@
 }
 
 body {
-    font-size: 16px;
-    color: blue;
-    padding: 15px;
+    font-size: 12px;
+    color: black;
+    padding:5px;
 }
 
 h1 {
-    font-size: 24px;
-    margin-bottom: 15px;
+    font-size: 16px;
+    margin-bottom: 13px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 12px;
 }
 
 nav {
-    background-color: white;
+    background-color: dark-blue;
     padding: 10px;
-    margin-bottom: 20px;
-}
-
-nav {
+    margin-bottom: 15px;
     color: blue;
     text-decoration: none;
     display: block;
