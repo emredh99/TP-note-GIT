@@ -1,0 +1,5 @@
+# Exemple de .gitignore
+node_modules/
+*.log
+.env
+.DS_Store
