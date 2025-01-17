@@ -1,0 +1,70 @@
+TP GIT
+Emeline DOLLE, B2 CS1. 
+
+
+Création du dépôt sur GitHub. 
+J'invite mes collaborateurs : elena94s, Nephtys643 et sebmfgit
+
+1. Import sur la VM 
+
+git clone https://github.com/emredh99/TP-note-GIT
+cd TP-note-GIT
+
+
+2. Création de l'arborescence 
+
+mkdir html css 
+git add html css
+git config --global user.email "emeline.abcef@gmail.com"
+git config --global user.name "emredh99"
+git commit -m "Création Arborescence"
+git push origin master 
+
+Nos collaborateurs importent maintenant le dépôt sur leurs machines. 
+
+
+3. Création mobile.css 
+
+cd css
+nano mobile.css 
+cd ..
+git add css/mobile.css
+git commit -m "Création mobile.css"
+git push origin master 
+	-> j'ai eu une erreur, du au fait que mes collaborateurs ont fait des modification sur le dépôt que je n'avais pas encore en local, j'ai donc fait : 
+git pull origin master 
+git push origin master 
+
+
+4. Modification style.css
+
+Je créer une branche sur laquelle effectuer mes modifications : 
+git checkout -b modification-emeline
+
+Je modifie style.css :  
+nano css/style.css 
+git diff css/style.css
+git add css/style.css
+git commit -m "1ere modif style.css"
+git push origin modification-emeline 
+
+git checkout master
+git pull origin modification-emeline
+git merge modification-emeline
+git push
+
+
+5. Modification index.html
+
+git checkout -b modification-em-html
+nano html/index.html 
+git diff html/index.html
+git add html/index.html 
+git commit -m "modif htlm par em"
+git push origin modification-em-html
+
+git checkout master 
+git pull origin master 
+git pull origin modification-em-html 
+git merge modification-em-html
+git push
