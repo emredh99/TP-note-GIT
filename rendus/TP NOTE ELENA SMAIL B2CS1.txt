@@ -1,0 +1,74 @@
+TP NOTE ELENA SMAIL B2CS1
+
+Emeline nous invite sur son GitHub
+ELENA fait le HTML
+Clement le CSS
+
+On fait un Clone git https://github.com/emredh99/TP-note-GIT.git
+
+on vérifie si les fichier css et html ont bien été crée avec un ls TP-note-GIT
+
+Ensuite cd TP-note-GIT pour aller dans le depot
+
+nano html/index.html puis on met un bout de code.
+
+on enregistre avec git add html
+
+git commit -m "Ajout de la structure HTML initiale"
+
+git pull origin master
+
+git pull "https://github.com/emredh99/TP-note-GIT.git"
+
+git add -A
+
+git commit -m "html upgrade"
+
+git push origin master
+
+On s'idd
+
+MAINTENANT ON PROCEDE AU MODIFICATION
+Je modifie le mobile
+
+Clement le html
+
+emeline le CSS
+
+pour ce faire :
+
+nano mobile.css
+
+puis on créé la branche 
+
+git checkout -b mobile/modification
+
+git add mobile.css
+
+git commit -m "modification du style mobile"
+
+git push origin mobile/modification
+
+PUIS POUR LA FUSION :
+ git checkout master
+ git merge mobile/modification
+git push origin master
+on s'idd (mais j'ai une erreur a partir de la )
+
+fatal: Il semble qu'il y ait déjà un répertoire rebase-merge, et je me demande
+si un autre rebasage n'est pas déjà en cours. Si c'est le cas,
+essayez
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
