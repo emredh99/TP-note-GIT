@@ -1,0 +1,82 @@
+  325  git clone "https://github.com/emredh99/TP-note-GIT.git"
+  326  cd TP-note-GIT/
+  327  ls -a
+  328  touch README.md
+  329  touch LICENCE.md
+  330  touch ".gitignore"
+  331  ls
+  332  cd css
+  333  ls
+  334  nano style.css
+  335  cd ../
+  336  git add -A
+  337  gut commit -m "changement css + README.md + LICENCE.md"
+  338  git commit -m "changement css + README.md + LICENCE.md"
+  339  git config user.email "boiscommunclement@gmail.com"
+  340  git config user.name "Nephtys643"
+  341  gut commit -m "changement css + README.md + LICENCE.md"
+  342  git add -A
+  343  git commit -m "changement css + README.md + LICENCE.md"
+  344  git push origin master
+  345  git pull "https://github.com/emredh99/TP-note-GIT.git"
+  346  ls
+  347  cat html/index.html
+  348  ls
+  349  nano ".gitignore"
+  350  ls
+  351  gti branch
+  352* git branch
+  353  git pull "https://github.com/emredh99/TP-note-GIT.git"
+  354  ls
+  355  cd html
+  356  l
+  357  ls
+  358  cat index.html
+  359  cd ../
+  360  git branch html_1
+  361  git checkout html_1
+  362  git branch
+  363  nano html/index.html
+  364  fg
+  365  git push -u origin html_1
+  366  git branch
+  367  git pull origin master
+  368  git branch
+  369  git checkout master
+  370  git branch
+  371  git merge html_1
+  372  git checkout html_
+  373  git checkout html_1
+  374  ls
+  375  git add -A
+  376  git commit -m "ajout <meta> dans head"
+  377  git push origin html_1
+  378  git checkout master
+  379  git pull origin html_1
+  380  git merge html_1
+  381  git merge master
+  382  git checkout master*
+  383  git checkout master
+  384  git push*
+  385  git push
+  386  git merge master
+  387  git merge html_1
+  388  git merge html_1 master
+  389  git checkout -b mobile_2
+  390  ls
+  391  nano css/mobile.css
+  392  git add -A
+  393  git commit -m "changement mobile.css"
+  394  git push origin mobile-2
+  395  git push origin mobile_2
+  396  git merge main
+  397  git checkout master
+  398  git pull origin mobile_2
+  399  git merge
+  400  git pull master
+  401  git pull origin master
+  402  git push
+  403  git merge
+  404  git pull
+  405  git branch
+  406  history
