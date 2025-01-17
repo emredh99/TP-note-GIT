@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
     .heading {
     
@@ -9,6 +10,54 @@
         padding: 0px;
         color: blue;
     }
+=======
+* {
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-size: 16px;
+    color: blue;
+    padding: 15px;
+>>>>>>> 3202ed0a5f19fbdca65201e118d33ab609b945f4
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav {
+    color: blue;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px;
+}
 
