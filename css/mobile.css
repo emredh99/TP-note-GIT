@@ -1,11 +1,14 @@
-heading{
-	blabla:0; 
-	blabla:center; 
-}
-
-blabla{
-	blabla:0px; 
-	blabla:blue; 
+@media screen and (max-width: 768px) {
+    .heading {
+    
+        margin: 0;
+        text-align: center;
+    }
+    
+    .blabla {
+        padding: 0px;
+        color: blue;
+    }
 }
 
 
